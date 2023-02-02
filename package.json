@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "electron-vite-ts-react-template",
   "private": true,
   "version": "0.0.0",
   "main": "dist/main.js",
