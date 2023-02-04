@@ -2,7 +2,7 @@ import { ipcMain, IpcMainInvokeEvent } from "electron";
 
 ipcMain.handle(
   "node-version",
-  (event: IpcMainInvokeEvent, logMsg: string): string | undefined => {
+  (event: IpcMainInvokeEvent, logMsg: string): string => {
     console.log(event);
     console.log(logMsg);
 
